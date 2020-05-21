@@ -1,4 +1,4 @@
-data_classabilities_barbarian = [
+data_classfeatures_barbarian = [
      {
          title: "Rage",
          icon: "enrage",
@@ -22,7 +22,7 @@ data_classabilities_barbarian = [
      },
 ]
 
-data_classabilities_bard = [
+data_classfeatures_bard = [
      {
          title: "Bardic Inspiration",
          icon: "music-spell",
@@ -38,7 +38,7 @@ data_classabilities_bard = [
      },
 ]
 
-data_classabilities_cleric = [
+data_classfeatures_cleric = [
      {
          title: "Channel Divinity: Turn Undead",
          icon: "shambling-zombie",
@@ -65,7 +65,7 @@ data_classabilities_cleric = [
      },
 ]
 
-data_classabilities_druid = [
+data_classfeatures_druid = [
      {
          title: "Wild Shape",
          icon: "bestial-fangs",
@@ -117,7 +117,7 @@ data_classabilities_druid = [
      },
 ]
 
-data_classabilities_fighter = [
+data_classfeatures_fighter = [
      {
          title: "Second Wind",
          icon: "healing",
@@ -142,7 +142,7 @@ data_classabilities_fighter = [
      },
 ]
 
-data_classabilities_monk = [
+data_classfeatures_monk = [
      {
          title: "Flurry of Blows",
          icon: "punch",
@@ -248,7 +248,7 @@ data_classabilities_monk = [
      },
 ]
 
-data_classabilities_paladin = [
+data_classfeatures_paladin = [
      {
          title: "Divine Sense",
          icon: "evil-minion",
@@ -307,7 +307,7 @@ data_classabilities_paladin = [
 
 ]
 
-data_classabilities_ranger = [
+data_classfeatures_ranger = [
      {
          title: "Primeval Awareness",
          icon: "six-eyes",
@@ -340,7 +340,7 @@ data_classabilities_ranger = [
     },
 ]
 
-data_classabilities_rogue = [
+data_classfeatures_rogue = [
      {
          title: "Cunning Action",
          icon: "sprint",
@@ -375,7 +375,7 @@ data_classabilities_rogue = [
      },
 ]
 
-data_classabilities_sorcerer = [
+data_classfeatures_sorcerer = [
      {
          title: "Convert Sorcery Points/Spell Slots",
          icon: "trade",
@@ -429,7 +429,7 @@ data_classabilities_sorcerer = [
      },
 ]
 
-data_classabilities_warlock = [
+data_classfeatures_warlock = [
      {
          title: "Familiar Attack",
          icon: "imp",
@@ -452,5 +452,5 @@ data_classabilities_warlock = [
      },
 ]
 
-//data_classabilities_wizard = [
+//data_classfeatures_wizard = [
 //]
