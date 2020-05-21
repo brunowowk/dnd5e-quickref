@@ -55,7 +55,7 @@ data_action = [
     {
         title: "Dash",
         icon: "sprint",
-        subtitle: "Double movement speed",
+        subtitle: "Gain extra movement",
         description: "Gain extra movement for the current turn",
         reference: "PHB, pg. 192.",
         bullets: [
