@@ -337,11 +337,11 @@ table#t01 th {
     color: Sienna;
 }
 
-#section-classabilities, #section-classabilities .item-icon {
+#section-classfeatures, #section-classfeatures .item-icon {
     background-color: Maroon;
     border-color: Maroon;
 }
-#section-classabilities .text {
+#section-classfeatures .text {
     color: Maroon;
 }
 
