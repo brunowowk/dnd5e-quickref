@@ -84,6 +84,8 @@ function init() {
     fill_section(data_equipment_packs, "equipment-packs", "Equipment Packs");
     fill_section(data_equipment_tools, "equipment-tools", "Tools");
     fill_section(data_equipment_weapons_properties, "equipment-weap-prop", "Weapon Properties");
+    fill_section(data_spellcasting_spellinfo, "spellcasting-spellinfo", "Spell Information");
+    fill_section(data_spellcasting_casting, "spellcasting-casting", "Casting a Spell");
     fill_section(data_classfeatures_barbarian, "class-features-barbarian", "Class Features");
     fill_section(data_classfeatures_bard, "class-features-bard", "Class Features");
     fill_section(data_classfeatures_cleric, "class-features-cleric", "Class Features");
@@ -96,8 +98,6 @@ function init() {
     fill_section(data_classfeatures_sorcerer, "class-features-sorcerer", "Class Features");
     fill_section(data_classfeatures_warlock, "class-features-warlock", "Class Features");
     //fill_section(data_classfeatures_wizard, "class-features-wizard", "Class Features");
-    fill_section(data_spellcasting_spellinfo, "spellcasting-spellinfo", "Spell Information");
-    fill_section(data_spellcasting_casting, "spellcasting-casting", "Casting a Spell");
     fill_section(data_multiclassing_classreqs, "multiclassing-classreqs", "Prerequisites, Proficiencies, and More");
     fill_section(data_multiclassing_classfeats_reg, "multiclassing-classfeats-reg", "Class Features & Multiclassing");
     fill_section(data_multiclassing_classfeats_casting, "multiclassing-classfeats-casting", "Class Features & Multiclassing");
