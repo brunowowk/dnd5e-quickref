@@ -82,8 +82,7 @@ function init() {
     fill_section(data_languages_standard, "languages-standard", "Languages");
     fill_section(data_languages_exotic, "languages-exotic", "Languages");
     fill_section(data_equipment_packs, "equipment-packs", "Equipment Packs");
-    fill_section(data_equipment_tools_norm, "equipment-tools-norm", "Tools");
-    fill_section(data_equipment_tools_artisan, "equipment-tools-artisan", "Tools");
+    fill_section(data_equipment_tools, "equipment-tools", "Tools");
     fill_section(data_equipment_weapons_properties, "equipment-weap-prop", "Weapon Properties");
     fill_section(data_classabilities_barbarian, "class-abilities-barbarian", "Class Abilities");
     fill_section(data_classabilities_bard, "class-abilities-bard", "Class Abilities");
