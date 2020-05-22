@@ -95,7 +95,7 @@ data_condition = [
         subtitle: "You are paralyzed",
         description: "You can't do anything",
         bullets: [
-            "You are incapacitated and can't move or speak.",
+            "You are incapacitated (no actions/reactions) and can't move or speak.",
             "Attack rolls against you have advantage.",
             "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
             "You automatically fail Strength and Dexterity saving throws."
@@ -158,7 +158,7 @@ data_condition = [
         description: "You are stunned",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
+            "You are incapacitated (no actions/reactions), can't move, and can speak only falteringly.",
             "Attack rolls against you have advantage.",
             "You automatically fail Strength and Dexterity saving throws."
         ]
@@ -170,7 +170,7 @@ data_condition = [
         description: "You are unconscious",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
+            "You are incapacitated (no actions/reactions), can't move or speak, and are unaware of your surroundings.",
             "You drop whatever you're holding and fall prone.",
             "Attack rolls against you have advantage.",
             "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",

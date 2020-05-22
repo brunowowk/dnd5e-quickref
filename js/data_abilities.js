@@ -101,7 +101,7 @@ data_abilities_dex = [
        title: "Stealth",
        icon: "hood",
        subtitle: "Used to remain unseen",
-       description: "Usde to remain unseen",
+       description: "Used to remain unseen",
        reference: "PHB, pg. 177",
        bullets: [
             "Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
