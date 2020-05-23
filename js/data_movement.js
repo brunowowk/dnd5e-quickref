@@ -72,7 +72,7 @@ data_movement = [
         ]
     },
     {
-        title: "Through Other Creatures",
+        title: "Through other creatures",
         icon: "invisible",
         subtitle: "Cost modifier: +5ft per 5ft",
         reference: "PHB, pg. 182.",

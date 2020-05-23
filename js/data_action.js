@@ -46,7 +46,7 @@ data_action = [
         description: "Cast a spell with a casting time of 1 action",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
+            "You can't cast a spell with 1 action and a spell with 1 bonus action in the same turn, unless the 1 action spell is a cantrip.",
             "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
             "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
             "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
@@ -106,28 +106,6 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
-        icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
-        ]
-    },
-    {
-        title: "Use shield",
-        icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
-        bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
-        ]
-    },
-    {
         title: "Hide",
         icon: "hood",
         subtitle: "",
@@ -148,7 +126,10 @@ data_action = [
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check.",
+            "When your character searches for a hidden object such as a secret door or a trap, the DM typically asks you to make a Wisdom (Perception) check. Such a check can be used to find hidden details or other information and clues that you might otherwise overlook. In most cases, you need to describe where you are looking in order for the DM to determine your chance of success.",
+            "When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse.",
+            "If you're trying to perceive something, you are calling for a Perception check. If you want to find an object through deduction, you are calling for a Investigation."
         ]
     },
     {
@@ -164,16 +145,26 @@ data_action = [
        ]
     },
     {
-        title: "Ready",
-        icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        title: "Use an object",
+        icon: "snatch",
+        subtitle: "Interact, use special abilities",
+        description: "Interact with a second object or use special object abilities",
         reference: "PHB, pg. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "You can normally interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
+            "When an object requires your action for its use, you also take this action.",
+            "If a magic item requires an action to use, it will be stated in its description."
+        ]
+    },
+    {
+        title: "Use shield",
+        icon: "round-shield",
+        subtitle: "Equip or unequip a shield",
+        description: "Equip or unequip a shield",
+        reference: "PHB, pgs. 144-146.",
+        bullets: [
+            "A shield takes an action to equip or unequip.",
+            "Armor takes several minutes to equip or unequip."
         ]
     },
     {
@@ -184,6 +175,19 @@ data_action = [
         reference: "See class page for more information.",
         bullets: [
 
+        ]
+    },
+    {
+        title: "Ready",
+        icon: "stopwatch",
+        subtitle: "Prepare a triggered action",
+        description: "Choose a trigger and a response reaction",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "First, you decide what perceivable circumstance will trigger your reaction.",
+            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
+            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
+            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration."
         ]
     },
     {
