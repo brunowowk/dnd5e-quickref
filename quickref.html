@@ -94,63 +94,63 @@
             </div>
         </div>
 
-        <!-- Environmental section -->
-        <div id="section-environment" class="section-container">
+        <!-- Visibility section -->
+        <div id="section-visibility" class="section-container">
             <div class="section-title">
-                Environmental Effects
+                Visibility & Cover
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
                     Effects that obscure vision can prove a significant hindrance to most adventuring tasks.
                 </div>
-                <div class="section-row" id="environment-obscurance"></div>
+                <div class="section-row" id="visibility-obscurance"></div>
                 <div class="section-row section-subtitle text fontsize">
                     The presence or absence of light in an environment creates three categories of illumination.
                 </div>
-                <div class="section-row" id="environment-light"></div>
+                <div class="section-row" id="visibility-light"></div>
                 <div class="section-row section-subtitle text fontsize">
                     Some creatures have extraordinary senses that allow them to perceive their environment.
                 </div>
-                <div class="section-row" id="environment-vision"></div>
+                <div class="section-row" id="visibility-vision"></div>
                 <div class="section-row section-subtitle text fontsize">
                     Obstacles can provide cover during combat, making a target more difficult to harm.
                 </div>
-                <div class="section-row" id="environment-cover"></div>
+                <div class="section-row" id="visibility-cover"></div>
             </div>
         </div>
 
-        <!-- Travel Section -->
-        <div id="section-travel" class="section-container">
+        <!-- Damage Section -->
+        <div id="section-damage" class="section-container">
              <div class="section-title">
-                 Traveling
-             </div>
-
-             <div class="section-content">
-                  <div class="section-row section-subtitle text fontsize">
-                      Movement over long distance and duration
-                  </div>
-                 <div class="section-row" id="travel"></div>
-            </div>
-        </div>
-
-        <!-- Damage Types Section -->
-        <div id="section-damage-types" class="section-container">
-             <div class="section-title">
-                 Damage Types
+                 Attacks & Damage
              </div>
              <div class="section-content">
-                 <div class="section-row" id="damage-types"></div>
+                 <div class="section-row" id="damage-basic"></div>
+                 <div class="section-row section-subtitle text fontsize">
+                    Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.
+                </div>
+                <div class="section-row" id="damage-types1"></div>
+                <div class="section-row" id="damage-types"></div>
             </div>
         </div>
 
-        <!-- Health, Dying, and Resting Section -->
+        <!-- Death & Recovery Section -->
         <div id="section-damage-healing" class="section-container">
              <div class="section-title">
-                 Health, Dying, and Resting
+                 Death & Recovery
              </div>
              <div class="section-content">
-                 <div class="section-row" id="damage-health"></div>
+                 <div class="section-title-reverse-seagreen">
+                    Dropping to 0 Hit Points
+                </div>
+                 <div class="section-row section-subtitle text fontsize">
+                    When you drop to 0 hit points, you either die outright or fall unconscious.
+                </div>
                  <div class="section-row" id="damage-death"></div>
+                 <div class="section-title-reverse-seagreen">
+                    Healing & Resting
+                </div>
+                 <div class="section-row" id="damage-health"></div>
                  <div class="section-row" id="damage-resting"></div>
             </div>
         </div>
@@ -297,27 +297,6 @@
             </div>
         </div>
 
-        <!--Multiclassing section-->
-        <div id="section-multiclassing" class="section-container">
-             <div class="section-title">
-                  Multiclassing
-             </div>
-             <div class="section-content">
-                  <div class="section-title-reverse-multiclassing">
-                       Prerequisites, Proficiencies, and More
-                  </div>
-                  <div class="section-row" id="multiclassing-classreqs"></div>
-                  <div class="section-title-reverse-multiclassing">
-                       Class Features & Multiclassing
-                  </div>
-                  <div class="section-row" id="multiclassing-classfeats-reg"></div>
-                  <div class="section-row section-subtitle text fontsize">
-                       Spellcasting also acts different with multiple classes...
-                  </div>
-                  <div class="section-row" id="multiclassing-classfeats-casting"></div>
-             </div>
-        </div>
-
         <!-- Equipment section -->
         <div id="section-equipment" class="section-container">
              <div class="section-title">
@@ -342,7 +321,42 @@
              </div>
         </div>
 
-        <!-- XP section -->
+        <!-- Travel Section -->
+        <div id="section-travel" class="section-container">
+            <div class="section-title">
+                Traveling
+            </div>
+
+            <div class="section-content">
+                 <div class="section-row section-subtitle text fontsize">
+                     Movement over long distance and duration
+                 </div>
+                <div class="section-row" id="travel"></div>
+           </div>
+       </div>
+
+        <!--Multiclassing section-->
+        <div id="section-multiclassing" class="section-container">
+            <div class="section-title">
+                 Multiclassing
+            </div>
+            <div class="section-content">
+                 <div class="section-title-reverse-multiclassing">
+                      Prerequisites, Proficiencies, and More
+                 </div>
+                 <div class="section-row" id="multiclassing-classreqs"></div>
+                 <div class="section-title-reverse-multiclassing">
+                      Class Features & Multiclassing
+                 </div>
+                 <div class="section-row" id="multiclassing-classfeats-reg"></div>
+                 <div class="section-row section-subtitle text fontsize">
+                      Spellcasting also acts different with multiple classes...
+                 </div>
+                 <div class="section-row" id="multiclassing-classfeats-casting"></div>
+            </div>
+       </div>
+
+      <!-- XP section -->
         <div id="section-xp" class="section-container">
              <div class="section-title">
                  Experience
@@ -382,7 +396,7 @@
     <script type="text/javascript" src="js/data_bonusaction.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_reaction.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_condition.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_visibility.js" charset="utf-8"></script>
     <Script type="text/javascript" src="js/data_xp.js" charset="utf-8"></script>
     <Script type="text/javascript" src="js/data_damage.js" charset="utf-8"></script>
     <Script type="text/javascript" src="js/data_abilities.js" charset="utf-8"></script>

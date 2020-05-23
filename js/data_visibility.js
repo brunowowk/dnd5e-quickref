@@ -1,4 +1,4 @@
-data_environment_obscurance = [
+data_visibility_obscurance = [
     {
         title: "Lightly obscured",
         icon: "bleeding-eye",
@@ -21,7 +21,7 @@ data_environment_obscurance = [
     }
 ]
 
-data_environment_light = [
+data_visibility_light = [
     {
         title: "Bright light",
         icon: "star-pupil",
@@ -57,17 +57,7 @@ data_environment_light = [
     }
 ]
 
-data_environment_vision = [
-    {
-        title: "Blindsight",
-        icon: "one-eyed",
-        subtitle: "Perceive without sight",
-        description: "Perceive your surroundings without relying on sight, within a certain radius",
-        reference: "PHB, pg. 183.",
-        bullets: [
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
-        ]
-    },
+data_visibility_vision = [
     {
         title: "Darkvision",
         icon: "semi-closed-eye",
@@ -78,6 +68,16 @@ data_environment_vision = [
             "Within a specified range, a creature with darkvision can <b>see in darkness as if the darkness were dim light</b>, so areas of darkness are only lightly obscured as far as that creature is concerned.",
             "However, the creature can’t discern color in darkness, only shades of gray.",
             "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+        ]
+    },
+    {
+        title: "Blindsight",
+        icon: "one-eyed",
+        subtitle: "Perceive without sight",
+        description: "Perceive your surroundings without relying on sight, within a certain radius",
+        reference: "PHB, pg. 183.",
+        bullets: [
+            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
         ]
     },
     {
@@ -94,7 +94,7 @@ data_environment_vision = [
         title: "Truesight",
         icon: "eye-shield",
         subtitle: "See in darkness",
-        description: "A creature with truesight can see everything in its true form, independent of the environment",
+        description: "A creature with truesight can see everything in its true form, independent of the visibility",
         reference: "PHB, pg. 184.",
         bullets: [
             "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
@@ -103,7 +103,7 @@ data_environment_vision = [
     }
 ]
 
-data_environment_cover = [
+data_visibility_cover = [
     {
         title: "Half cover",
         icon: "broken-shield",

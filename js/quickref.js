@@ -57,21 +57,23 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
-    fill_section(data_movement, "basic-movement", "Move");
+    fill_section(data_movement, "basic-movement", "Movement");
     fill_section(data_action, "basic-actions", "Action");
     fill_section(data_freeaction, "basic-free-actions", "Free Action");
     fill_section(data_bonusaction, "basic-bonus-actions", "Bonus Action");
     fill_section(data_reaction, "basic-reactions", "Reaction");
     fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
-    fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_visibility_obscurance, "visibility-obscurance", "Visibility & Cover");
+    fill_section(data_visibility_light, "visibility-light", "Visibility & Cover");
+    fill_section(data_visibility_vision, "visibility-vision", "Visibility & Cover");
+    fill_section(data_visibility_cover, "visibility-cover", "Visibility & Cover");
     fill_section(data_xp, "xp", "Experience");
-    fill_section(data_damage_types, "damage-types", "Damage Types");
-    fill_section(data_damage_death, "damage-death", "Health, Dying, and Resting");
-    fill_section(data_damage_health, "damage-health", "Health, Dying, and Resting");
-    fill_section(data_damage_resting, "damage-resting", "Health, Dying, and Resting");
+    fill_section(data_damage_basic, "damage-basic", "Attacks & Damage");
+    fill_section(data_damage_types1, "damage-types1", "Attacks & Damage");
+    fill_section(data_damage_types, "damage-types", "Attacks & Damage");
+    fill_section(data_damage_death, "damage-death", "Death & Recovery");
+    fill_section(data_damage_health, "damage-health", "Death & Recovery");
+    fill_section(data_damage_resting, "damage-resting", "Death & Recovery");
     fill_section(data_abilities_str, "abilities-str", "Ability Scores & Skills");
     fill_section(data_abilities_dex, "abilities-dex", "Ability Scores & Skills");
     fill_section(data_abilities_con, "abilities-con", "Ability Scores & Skills");

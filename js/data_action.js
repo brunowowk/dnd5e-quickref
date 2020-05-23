@@ -153,7 +153,7 @@ data_action = [
         bullets: [
             "You can normally interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
             "When an object requires your action for its use, you also take this action.",
-            "If a magic item requires an action to use, it will be stated in its description."
+            "If a magic item requires an action to activate, including potions, that action isn't a function of the Use an Object action."
         ]
     },
     {
