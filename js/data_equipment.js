@@ -1,6 +1,6 @@
 data_equipment_packs = [
      {
-         title: "Burglar's Pack",
+         title: "Burglar's pack",
          icon: "robber",
          subtitle: "Cost: 16gp",
          description: "Cost: 16gp",
@@ -10,7 +10,7 @@ data_equipment_packs = [
          ]
      },
      {
-         title: "Diplomat's Pack",
+         title: "Diplomat's pack",
          icon: "shaking-hands",
          subtitle: "Cost: 39gp",
          description: "Cost: 39gp",
@@ -20,7 +20,7 @@ data_equipment_packs = [
          ]
      },
      {
-         title: "Dungeoneer's Pack",
+         title: "Dungeoneer's pack",
          icon: "dungeon-gate",
          subtitle: "Cost: 12gp",
          description: "Cost: 12gp",
@@ -30,7 +30,7 @@ data_equipment_packs = [
          ]
      },
      {
-         title: "Entertainer's Pack",
+         title: "Entertainer's pack",
          icon: "drama-masks",
          subtitle: "Cost: 40gp",
          description: "Cost: 40gp",
@@ -40,7 +40,7 @@ data_equipment_packs = [
          ]
      },
      {
-         title: "Explorer's Pack",
+         title: "Explorer's pack",
          icon: "journey",
          subtitle: "Cost: 10gp",
          description: "Cost: 10gp",
@@ -50,7 +50,7 @@ data_equipment_packs = [
          ]
      },
      {
-         title: "Priest's Pack",
+         title: "Priest's pack",
          icon: "holy-symbol",
          subtitle: "Cost: 19gp",
          description: "Cost: 19gp",
@@ -60,7 +60,7 @@ data_equipment_packs = [
          ]
      },
      {
-         title: "Scholar's Pack",
+         title: "Scholar's pack",
          icon: "bookmark",
          subtitle: "Cost: 40gp",
          description: "Cost: 40gp",
@@ -73,7 +73,7 @@ data_equipment_packs = [
 
 data_equipment_tools = [
      {
-         title: "Artisan's Tools",
+         title: "Artisan's tools",
          icon: "hammer-nails",
          subtitle: "Cost: Varied",
          description: "Cost: Varied",
@@ -84,7 +84,7 @@ data_equipment_tools = [
          ]
      },
      {
-         title: "Disguise Kit",
+         title: "Disguise kit",
          icon: "domino-mask",
          subtitle: "Cost: 25gp",
          description: "Cost: 25gp",
@@ -94,7 +94,7 @@ data_equipment_tools = [
          ]
      },
      {
-         title: "Forgery Kit",
+         title: "Forgery kit",
          icon: "letter-bomb",
          subtitle: "Cost: 15gp",
          description: "Cost: 15gp",
@@ -104,7 +104,7 @@ data_equipment_tools = [
          ]
      },
      {
-         title: "Gaming Set",
+         title: "Gaming set",
          icon: "perspective-dice-six-faces-random",
          subtitle: "Cost: Varied",
          description: "Cost: Varied",
@@ -115,7 +115,7 @@ data_equipment_tools = [
          ]
      },
      {
-         title: "Herbalism Kit",
+         title: "Herbalism kit",
          icon: "spoted-flower",
          subtitle: "Cost: 5gp",
          description: "Cost: 5gp",
@@ -125,7 +125,7 @@ data_equipment_tools = [
          ]
      },
      {
-         title: "Musical Instrument",
+         title: "Musical instrument",
          icon: "guitar",
          subtitle: "Cost: Varied",
          description: "Cost: Varied",
@@ -136,7 +136,7 @@ data_equipment_tools = [
          ]
      },
      {
-         title: "Navigator's Tools",
+         title: "Navigator's tools",
          icon: "compass",
          subtitle: "Cost: 25gp",
          description: "Cost: 25gp",
@@ -146,7 +146,7 @@ data_equipment_tools = [
          ]
      },
      {
-         title: "Poisoner's Kit",
+         title: "Poisoner's kit",
          icon: "poison-bottle",
          subtitle: "Cost: 50gp",
          description: "Cost: 50gp",
@@ -156,7 +156,7 @@ data_equipment_tools = [
          ]
      },
      {
-         title: "Thieves' Tools",
+         title: "Thieves' tools",
          icon: "lockpicks",
          subtitle: "Cost: 25gp",
          description: "Cost: 25gp",
@@ -250,7 +250,7 @@ data_equipment_weapons_properties = [
          ]
      },
      {
-         title: "Two-Handed",
+         title: "Two-handed",
          icon: "axe-swing",
          subtitle: "A weapon that uses both hands",
          description: "A weapon that uses both hands",

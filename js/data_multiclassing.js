@@ -63,7 +63,7 @@ data_multiclassing_classreqs = [
          ]
      },
      {
-         title: "Hit Points and Hit Dice",
+         title: "Hit points & Hit dice",
          icon: "health-capsule",
          subtitle: "How multiclassing affects Hit Dice/HP",
          description: "How multiclassing affects Hit Dice/Hit Points",
@@ -141,7 +141,7 @@ data_multiclassing_classreqs = [
 
 data_multiclassing_classfeats_reg = [
      {
-         title: "Channel Divinity",
+         title: "Channel divinity",
          icon: "holy-symbol",
          subtitle: "Having multiple Channel Divinity effects",
          description: "Having multiple Channel Divinity effects",
@@ -151,7 +151,7 @@ data_multiclassing_classfeats_reg = [
          ]
      },
      {
-         title: "Extra Attack",
+         title: "Extra attack",
          icon: "saber-slash",
          subtitle: "Gaining Extra Attack multiple times",
          description: "Gaining Extra Attack multiple times",
@@ -161,7 +161,7 @@ data_multiclassing_classfeats_reg = [
          ]
      },
      {
-         title: "Unarmored Defense",
+         title: "Unarmored defense",
          icon: "spiked-armor",
          subtitle: "Gaining Unarmored Defense multiple times",
          description: "Gaining Unarmored Defense multiple times",
@@ -174,7 +174,7 @@ data_multiclassing_classfeats_reg = [
 
 data_multiclassing_classfeats_casting = [
      {
-         title: "Spells Known and Prepared",
+         title: "Spells known & Prepared",
          icon: "spell-book",
          subtitle: "How many spells you know",
          description: "How many spells you know",
@@ -185,7 +185,7 @@ data_multiclassing_classfeats_casting = [
          ]
      },
      {
-         title: "Spell Slots",
+         title: "Spell slots",
          icon: "shotgun",
          subtitle: "How many spell slots you have",
          description: "How many spell slots you have",
@@ -196,7 +196,7 @@ data_multiclassing_classfeats_casting = [
          ]
      },
      {
-         title: "Pact Magic",
+         title: "Pact magic",
          icon: "blood",
          subtitle: "Having Pact Magic & Spellcasting",
          description: "Having Pact Magic & Spellcasting",
@@ -206,7 +206,7 @@ data_multiclassing_classfeats_casting = [
          ]
      },
      {
-         title: "Multiclass Caster Table",
+         title: "Multiclass caster table",
          icon: "ice-spell-cast",
          subtitle: "A table for multiclass spell slots",
          description: "A table for multiclass spell slots",

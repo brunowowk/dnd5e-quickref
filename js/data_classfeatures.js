@@ -11,7 +11,7 @@ data_classfeatures_barbarian = [
          ]
      },
      {
-         title: "Extra Attack",
+         title: "Extra attack",
          icon: "saber-slash",
          subtitle: "Used when taking the Attack action",
          description: "Used when taking the Attack action",
@@ -24,7 +24,7 @@ data_classfeatures_barbarian = [
 
 data_classfeatures_bard = [
      {
-         title: "Bardic Inspiration",
+         title: "Bardic inspiration",
          icon: "music-spell",
          subtitle: "Cost: Bonus action",
          description: "Inspire others with your performances",
@@ -40,7 +40,7 @@ data_classfeatures_bard = [
 
 data_classfeatures_cleric = [
      {
-         title: "Channel Divinity: Turn Undead",
+         title: "Channel divinity: Turn undead",
          icon: "shambling-zombie",
          subtitle: "Cost: Action",
          description: "Action",
@@ -51,7 +51,7 @@ data_classfeatures_cleric = [
          ]
      },
      {
-         title: "Divine Intervention",
+         title: "Divine intervention",
          icon: "hand-of-god",
          subtitle: "Cost: Action",
          description: "Request your deity's aid",
@@ -67,7 +67,7 @@ data_classfeatures_cleric = [
 
 data_classfeatures_druid = [
      {
-         title: "Wild Shape",
+         title: "Wild shape",
          icon: "bestial-fangs",
          subtitle: "Cost: Action",
          description: "",
@@ -106,7 +106,7 @@ data_classfeatures_druid = [
          ]
      },
      {
-         title: "Revert Wild Shape",
+         title: "Revert wild shape",
          icon: "person",
          subtitle: "Cost: Bonus action",
          description: "Turn back to your normal form",
@@ -119,7 +119,7 @@ data_classfeatures_druid = [
 
 data_classfeatures_fighter = [
      {
-         title: "Second Wind",
+         title: "Second wind",
          icon: "healing",
          subtitle: "Cost: Bonus action",
          description: "Heal yourself with a bonus action",
@@ -130,7 +130,7 @@ data_classfeatures_fighter = [
          ]
      },
      {
-         title: "Extra Attack",
+         title: "Extra attack",
          icon: "saber-slash",
          subtitle: "Used when taking the Attack action",
          description: "Used when taking the Attack action",
@@ -144,7 +144,7 @@ data_classfeatures_fighter = [
 
 data_classfeatures_monk = [
      {
-         title: "Flurry of Blows",
+         title: "Flurry of blows",
          icon: "punch",
          subtitle: "Cost: 1 ki point",
          description: "Cost: 1 ki point",
@@ -154,7 +154,7 @@ data_classfeatures_monk = [
          ]
      },
      {
-         title: "Patient Defense",
+         title: "Patient defense",
          icon: "dodge",
          subtitle: "Cost: 1 ki point",
          description: "Cost: 1 ki point",
@@ -164,7 +164,7 @@ data_classfeatures_monk = [
          ]
      },
      {
-         title: "Step of the Wind",
+         title: "Step of the wind",
          icon: "sprint",
          subtitle: "Cost: 1 ki point",
          description: "Cost: 1 ki point",
@@ -174,7 +174,7 @@ data_classfeatures_monk = [
          ]
      },
      {
-         title: "Deflect Missiles",
+         title: "Deflect missiles",
          icon: "catch",
          subtitle: "Cost: Reaction (ki point to throw)",
          description: "Cost: Reaction (ki point to throw)",
@@ -185,7 +185,7 @@ data_classfeatures_monk = [
          ]
      },
      {
-         title: "Slow Fall",
+         title: "Slow fall",
          icon: "falling-leaf",
          subtitle: "Cost: Reaction",
          description: "Cost: Reaction",
@@ -195,7 +195,7 @@ data_classfeatures_monk = [
          ]
      },
      {
-         title: "Extra Attack",
+         title: "Extra attack",
          icon: "saber-slash",
          subtitle: "Used when taking the Attack action",
          description: "Used when taking the Attack action",
@@ -205,7 +205,7 @@ data_classfeatures_monk = [
          ]
      },
      {
-         title: "Stunning Strike",
+         title: "Stunning strike",
          icon: "punch-blast",
          subtitle: "Cost: 1 ki point",
          description: "Cost: 1 ki point",
@@ -215,7 +215,7 @@ data_classfeatures_monk = [
          ]
      },
      {
-         title: "Stillness of Mind",
+         title: "Stillness of mind",
          icon: "brain",
          subtitle: "Cost: Action",
          description: "Cost: Action",
@@ -225,7 +225,7 @@ data_classfeatures_monk = [
          ]
      },
      {
-         title: "Diamond Soul",
+         title: "Diamond soul",
          icon: "spark-spirit",
          subtitle: "Cost: 1 ki point",
          description: "Cost: 1 ki point",
@@ -236,7 +236,7 @@ data_classfeatures_monk = [
          ]
      },
      {
-         title: "Empty Body",
+         title: "Empty body",
          icon: "invisible",
          subtitle: "Cost: 4/8 ki points",
          description: "Cost: 4/8 ki points",
@@ -250,7 +250,7 @@ data_classfeatures_monk = [
 
 data_classfeatures_paladin = [
      {
-         title: "Divine Sense",
+         title: "Divine sense",
          icon: "evil-minion",
          subtitle: "Cost: Action",
          description: "Cost: Action",
@@ -261,7 +261,7 @@ data_classfeatures_paladin = [
          ]
      },
      {
-         title: "Lay on Hands",
+         title: "Lay on hands",
          icon: "healing",
          subtitle: "Cost: Action",
          description: "Cost: Action",
@@ -274,7 +274,7 @@ data_classfeatures_paladin = [
          ]
      },
      {
-         title: "Divine Smite",
+         title: "Divine smite",
          icon: "flame",
          subtitle: "Used when hitting with a melee weapon attack",
          description: "Used when hitting with a melee weapon attack",
@@ -284,7 +284,7 @@ data_classfeatures_paladin = [
          ]
      },
      {
-         title: "Extra Attack",
+         title: "Extra attack",
          icon: "saber-slash",
          subtitle: "Used when taking the Attack action",
          description: "Used when taking the Attack action",
@@ -294,7 +294,7 @@ data_classfeatures_paladin = [
          ]
     },
     {
-        title: "Cleansing Touch",
+        title: "Cleansing touch",
         icon: "glowing-hands",
         subtitle: "Cost: Action",
         description: "Cost: Action",
@@ -309,7 +309,7 @@ data_classfeatures_paladin = [
 
 data_classfeatures_ranger = [
      {
-         title: "Primeval Awareness",
+         title: "Primeval awareness",
          icon: "six-eyes",
          subtitle: "Cost: Action",
          description: "Cost: Action",
@@ -319,7 +319,7 @@ data_classfeatures_ranger = [
          ]
      },
      {
-         title: "Extra Attack",
+         title: "Extra attack",
          icon: "saber-slash",
          subtitle: "Used when taking the Attack action",
          description: "Used when taking the Attack action",
@@ -342,7 +342,7 @@ data_classfeatures_ranger = [
 
 data_classfeatures_rogue = [
      {
-         title: "Cunning Action",
+         title: "Cunning action",
          icon: "sprint",
          subtitle: "Cost: Bonus action",
          description: "Cost: Bonus action",
@@ -352,7 +352,7 @@ data_classfeatures_rogue = [
          ]
      },
      {
-         title: "Sneak Attack",
+         title: "Sneak attack",
          icon: "cloak-dagger",
          subtitle: "Used when attacking with advantage",
          description: "Used when attacking with advantage",
@@ -364,7 +364,7 @@ data_classfeatures_rogue = [
          ]
      },
      {
-         title: "Uncanny Dodge",
+         title: "Uncanny dodge",
          icon: "dodge",
          subtitle: "Cost: Reaction",
          description: "Cost: Reaction",
@@ -377,7 +377,7 @@ data_classfeatures_rogue = [
 
 data_classfeatures_sorcerer = [
      {
-         title: "Convert Sorcery Points/Spell Slots",
+         title: "Font of Magic",
          icon: "trade",
          subtitle: "Cost: Bonus action",
          description: "Cost: Bonus action, sorcery points/spell slots",
@@ -418,7 +418,7 @@ data_classfeatures_sorcerer = [
          ]
      },
      {
-         title: "Quickened Spell",
+         title: "Metamagic",
          icon: "bolt-spell-cast",
          subtitle: "Cost: Bonus action",
          description: "Cost: Bonus action",

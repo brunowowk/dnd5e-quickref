@@ -1,6 +1,6 @@
 data_xp = [
      {
-         title: "Experience Required",
+         title: "Experience required",
          icon: "level-crossing",
          subtitle: "The amount of XP needed to level up",
          description: "The amount of XP needed to level up",
@@ -95,7 +95,7 @@ data_xp = [
          ]
      },
      {
-         title: "Experience Given",
+         title: "Experience given",
          icon: "fish-monster",
          subtitle: "The amount of XP given by monsters",
          description: "The amount of XP given by monsters",

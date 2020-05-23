@@ -14,16 +14,6 @@ data_reaction = [
         ]
     },
     {
-        title: "Readied action",
-        icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Trigger: Specified by your <i>Ready</i> action."
-        ]
-    },
-    {
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 reaction",
@@ -32,6 +22,16 @@ data_reaction = [
         bullets: [
             "Trigger: Specified by the spell description.",
             "For further details, see the <i>Cast a spell</i> action."
+        ]
+    },
+    {
+        title: "Readied action",
+        icon: "stopwatch",
+        subtitle: "Part of your Ready action",
+        description: "Execute the reaction specified by your Ready action",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "Trigger: Specified by your <i>Ready</i> action."
         ]
     }
 ]

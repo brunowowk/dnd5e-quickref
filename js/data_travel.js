@@ -1,6 +1,6 @@
 data_travel = [
     {
-    title: "Travel Pace",
+    title: "Travel pace",
     icon: "old-wagon",
     subtitle: "The speeds at which you can travel",
     description: "The speeds at which you can travel",
@@ -39,7 +39,7 @@ data_travel = [
         ]
     },
     {
-        title: "Forced March",
+        title: "Forced march",
         icon: "journey",
         subtitle: "DC: 10 + hours past 8",
         description: "Traveling more than 8 hours in a day",

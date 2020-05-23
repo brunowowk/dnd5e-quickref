@@ -119,7 +119,7 @@ data_damage_health = [
 
 data_damage_death = [
      {
-        title: "Instant Death",
+        title: "Instant death",
         icon: "decapitation",
         subtitle: "Death by massive damage",
         description: "Death by massive damage",
@@ -130,7 +130,7 @@ data_damage_death = [
         ]
     },
     {
-       title: "Falling Unconscious",
+       title: "Falling unconscious",
        icon: "sleepy",
        reference: "PHB, pg. 197",
        bullets: [
@@ -141,7 +141,7 @@ data_damage_death = [
 
 data_damage_resting = [
      {
-        title: "Short Rest",
+        title: "Short rest",
         icon: "campfire",
         subtitle: "Resting for at least 1 hour",
         description: "Resting for at least 1 hour",
@@ -152,7 +152,7 @@ data_damage_resting = [
         ]
     },
     {
-        title: "Long Rest",
+        title: "Long rest",
         icon: "bed",
         subtitle: "Resting for at least 8 hours",
         description: "Resting for at least 8 hours",

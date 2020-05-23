@@ -22,7 +22,7 @@ data_spellcasting_spellinfo = [
          ]
      },
      {
-         title: "Spell Slots",
+         title: "Spell slots",
          icon: "shotgun",
          subtitle: "How many spells a caster can cast",
          description: "How many spells a caster can cast",
@@ -36,7 +36,7 @@ data_spellcasting_spellinfo = [
 
 data_spellcasting_casting = [
      {
-         title: "Casting Time",
+         title: "Casting time",
          icon: "alarm-clock",
          subtitle: "How long a spell takes to cast",
          description: "Most spells require a single action to cast, but some spells require a bonus action, a reaction, or much more time to cast.",
@@ -101,7 +101,7 @@ data_spellcasting_casting = [
          ]
      },
      {
-         title: "Areas of Effect",
+         title: "Areas of effect",
          icon: "stone-sphere",
          subtitle: "The area that a spell affects",
          description: "The area that a spell affects",
@@ -116,7 +116,7 @@ data_spellcasting_casting = [
          ]
      },
      {
-         title: "Saving Throws",
+         title: "Saving throws",
          icon: "run",
          subtitle: "A save to avoid a spell's effects",
          description: "A save to avoid a spell's effects",
@@ -127,7 +127,7 @@ data_spellcasting_casting = [
          ]
      },
      {
-         title: "Attack Rolls",
+         title: "Attack rolls",
          icon: "fireball",
          subtitle: "Attack rolls for spells",
          description: "Attack rolls for spells",
@@ -138,7 +138,7 @@ data_spellcasting_casting = [
          ]
      },
      {
-         title: "Combining Magical Effects",
+         title: "Combining magical effects",
          icon: "crafting",
          subtitle: "How spell effects stack",
          description: "How spell effects stack",

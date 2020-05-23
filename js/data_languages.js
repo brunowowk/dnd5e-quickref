@@ -124,7 +124,7 @@ data_languages_exotic = [
          ]
      },
      {
-         title: "Deep Speech",
+         title: "Deep speech",
          icon: "squid-head",
          subtitle: "Typically spoken by Mind-Flayers...",
          description: "Typically spoken by Mind-Flayers...",
