@@ -83,11 +83,12 @@ function init() {
     fill_section(data_travel, "travel", "Traveling");
     fill_section(data_languages_standard, "languages-standard", "Languages");
     fill_section(data_languages_exotic, "languages-exotic", "Languages");
+    fill_section(data_languages_rare, "languages-rare", "Languages");
     fill_section(data_equipment_packs, "equipment-packs", "Equipment Packs");
     fill_section(data_equipment_tools, "equipment-tools", "Tools");
     fill_section(data_equipment_weapons_properties, "equipment-weap-prop", "Weapon Properties");
-    fill_section(data_spellcasting_spellinfo, "spellcasting-spellinfo", "Spell Information");
-    fill_section(data_spellcasting_casting, "spellcasting-casting", "Casting a Spell");
+    fill_section(data_spellcasting_general, "spellcasting-general", "Spellcasting");
+    fill_section(data_spellcasting_spellinfo, "spellcasting-spellinfo", "Spellcasting");
     fill_section(data_classfeatures_barbarian, "class-features-barbarian", "Class Features");
     fill_section(data_classfeatures_bard, "class-features-bard", "Class Features");
     fill_section(data_classfeatures_cleric, "class-features-cleric", "Class Features");

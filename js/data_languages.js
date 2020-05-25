@@ -1,7 +1,7 @@
 data_languages_standard = [
      {
          title: "Common",
-         icon: "conversation",
+         icon: "monk-face",
          subtitle: "Typically spoken by Humans",
          description: "Typically spoken by Humans",
          reference: "PHB, pg. 123",
@@ -23,7 +23,7 @@ data_languages_standard = [
      },
      {
          title: "Elvish",
-         icon: "elf-ear",
+         icon: "woman-elf-face",
          subtitle: "Typically spoken by Elves",
          description: "Typically spoken by Elves",
          reference: "PHB, pg. 123",
@@ -67,7 +67,7 @@ data_languages_standard = [
      },
      {
          title: "Halfling",
-         icon: "conversation",
+         icon: "hobbit-dwelling",
          subtitle: "Typically spoken by Halflings",
          description: "Typically spoken by Halflings",
          reference: "PHB, pg. 123",
@@ -87,12 +87,25 @@ data_languages_standard = [
              "<b>Script:</b> Dwarvish"
          ]
      },
+        {
+         title: "Other Racial Languages",
+         icon: "round-table",
+         subtitle: "Typically only spoken by one race",
+         description: "Typically only spoken by one race",
+         reference: "PHB, pg. 123",
+         bullets: [
+             "Many of the more obscure races have a language all their own. These languages are seldom spoken outside that race.",
+             "<b>Some Examples:</b> Aarakocra, Gith, Kraul, Loxodon, Merfolk, Minotaur, Sphinx, Vedalken.",
+             "<b>Typical Speakers:</b> The race it belongs to, exclusively.",
+             "<b>Script:</b> various"
+         ]
+     }
 ]
 
 data_languages_exotic = [
      {
          title: "Abyssal",
-         icon: "imp",
+         icon: "diablo-skull",
          subtitle: "Typically spoken by Demons",
          description: "Typically spoken by Demons",
          reference: "PHB, pg. 123",
@@ -136,7 +149,7 @@ data_languages_exotic = [
      },
      {
          title: "Infernal",
-         icon: "diablo-skull",
+         icon: "imp",
          subtitle: "Typically spoken by Devils",
          description: "Typically spoken by Devils",
          reference: "PHB, pg. 123",
@@ -169,7 +182,7 @@ data_languages_exotic = [
      },
      {
          title: "Undercommon",
-         icon: "trade",
+         icon: "cultist",
          subtitle: "Typically spoken by Underdark Traders",
          description: "Typically spoken by Underdark Traders",
          reference: "PHB, pg. 123",
@@ -178,4 +191,31 @@ data_languages_exotic = [
              "<b>Script:</b> Elvish"
          ]
      },
+]
+
+data_languages_rare = [
+    {
+        title: "Druidic",
+        icon: "robe",
+        subtitle: "Spoken only by Druids",
+        description: "Spoken only by Druids",
+        reference: "PHB, pg. 66",
+        bullets: [
+            "A secret language, spoken only among druids, that is verbal with some runic symbology. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.",
+            "<b>Typical Speakers:</b> Druids",
+            "<b>Script:</b> Infernal"
+        ]
+    },
+    {
+        title: "Thieves' Cant",
+        icon: "robber",
+        subtitle: "Spoken only by Rogues",
+        description: "Spoken only by Rogues",
+        reference: "PHB, pg. 96",
+        bullets: [
+            "A secret language, spoken only among rogues, that consist of verbal language and physical gestures.",
+            "<b>Typical Speakers:</b> Rogues",
+            "<b>Script:</b> -"
+        ]
+    }
 ]

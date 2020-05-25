@@ -61,7 +61,7 @@
     font-size: 16pt;
 }
 
-.section-title-reverse-crimson {
+.section-title-reverse-class {
     height: 32px;
     padding-left: 0px;
     padding-right: 8px;
@@ -69,7 +69,7 @@
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
-    color: Crimson;
+    color: #2e4606;
     font-size: 16pt;
 }
 
@@ -129,7 +129,7 @@
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
-    color: #2e4f1e;
+    color: darkorange;
     font-size: 16pt;
 }
 
@@ -298,19 +298,19 @@ table#t01 th {
 }
 
 #section-visibility, #section-visibility .item-icon {
-    background-color: ForestGreen;
-    border-color: ForestGreen;
+    background-color: #2271AE;
+    border-color: #2271AE;
 }
 #section-visibility .text {
-    color: ForestGreen;
+    color: #2271AE;
 }
 
 #section-travel, #section-travel .item-icon {
-    background-color: SaddleBrown;
-    border-color: SaddleBrown;
+    background-color: ForestGreen;
+    border-color: ForestGreen;
 }
 #section-travel .text {
-    color: SaddleBrown;
+    color: ForestGreen;
 }
 
 #section-xp, #section-xp .item-icon {
@@ -338,11 +338,11 @@ table#t01 th {
 }
 
 #section-abilities, #section-abilities .item-icon {
-    background-color: Crimson;
-    border-color: Crimson;
+    background-color: Maroon;
+    border-color: Maroon;
 }
 #section-abilities .text {
-    color: Crimson;
+    color: Maroon;
 }
 
 #section-languages, #section-languages .item-icon {
@@ -362,11 +362,11 @@ table#t01 th {
 }
 
 #section-classfeatures, #section-classfeatures .item-icon {
-    background-color: Maroon;
-    border-color: Maroon;
+    background-color: #2e4606;
+    border-color: #2e4606;
 }
 #section-classfeatures .text {
-    color: Maroon;
+    color: #2e4606;
 }
 
 #section-spellcasting, #section-spellcasting .item-icon {
@@ -378,11 +378,11 @@ table#t01 th {
 }
 
 #section-multiclassing, #section-multiclassing .item-icon {
-    background-color: #2e4f1e;
-    border-color: #2e4f1e;
+    background-color: darkorange;
+    border-color: darkorange;
 }
 #section-multiclassing .text {
-    color: #2e4f1e;
+    color: darkorange;
 }
 
 

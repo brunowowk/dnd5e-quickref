@@ -241,7 +241,7 @@ data_equipment_weapons_properties = [
      },
      {
          title: "Thrown",
-         icon: "barbed-spear",
+         icon: "thrown-spear",
          subtitle: "A weapon that can be thrown",
          description: "A weapon that can be thrown",
          reference: "PHB, pg. 147",

@@ -79,7 +79,7 @@ data_abilities_str = [
 data_abilities_dex = [
      {
         title: "Acrobatics",
-        icon: "falling",
+        icon: "acrobatic",
         subtitle: "Used for nimble physical feats",
         description: "Used for nimble physical feats",
         reference: "PHB, pg. 176",
@@ -109,7 +109,7 @@ data_abilities_dex = [
     },
     {
        title: "Armor class",
-       icon: "spiked-armor",
+       icon: "dodging",
        subtitle: "How likely/unlikely you are to be hit",
        description: "How likely/unlikely you are to be hit",
        reference: "PHB, pg. 177",
@@ -129,7 +129,7 @@ data_abilities_dex = [
     },
     {
        title: "Attack rolls & Damage",
-       icon: "plain-dagger",
+       icon: "bowman",
        subtitle: "How likely you are to hit your target",
        description: "How likely you are to hit your target",
        reference: "PHB, pg. 177",
@@ -361,7 +361,7 @@ data_abilities_wis = [
 data_abilities_cha = [
      {
        title: "Deception",
-       icon: "conversation",
+       icon: "liar",
        subtitle: "Used to lie and trick others",
        description: "Used to lie and trick others",
        reference: "PHB, pg. 178",
@@ -371,7 +371,7 @@ data_abilities_cha = [
      },
      {
        title: "Intimidation",
-       icon: "scarecrow",
+       icon: "angry-eyes",
        subtitle: "Used to frighten others",
        description: "Used to frighten others",
        reference: "PHB, pg. 179",
@@ -391,7 +391,7 @@ data_abilities_cha = [
      },
      {
        title: "Persuasion",
-       icon: "trade",
+       icon: "convince",
        subtitle: "Used to convince others",
        description: "Used to convince others",
        reference: "PHB, pg. 179",

@@ -1,7 +1,7 @@
 data_movement = [
     {
         title: "Move",
-        icon: "run",
+        icon: "walk",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft moved",
         reference: "PHB, pg. 190.",
@@ -51,7 +51,7 @@ data_movement = [
     },
     {
         title: "Long jump",
-        icon: "wingfoot",
+        icon: "jump-across",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
         reference: "PHB, pg. 182.",
@@ -69,14 +69,16 @@ data_movement = [
         reference: "PHB, pg. 182.",
         description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
         bullets: [
+            "This rule is true even if multiple things in a space count as difficult terrain.",
+            "Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of difficult terrain. The space of another creature, whether hostile or not, also counts as difficult terrain."
         ]
     },
     {
         title: "Through other creatures",
-        icon: "invisible",
+        icon: "ghost-ally",
         subtitle: "Cost modifier: +5ft per 5ft",
         reference: "PHB, pg. 182.",
-        description: "Another creature's space is difficult terrain and costs an additional 5ft per 5ft of movement",
+        description: "Another creature's space counts as difficult terrain and therefore costs an additional 5ft per 5ft of movement",
         bullets: [
             "You can move through a nonhostile creature's space. In contrast, you can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
             "Whether a creature is a friend or an enemy, you can't willingly end your move in its space.",

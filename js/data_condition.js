@@ -24,7 +24,7 @@ data_condition = [
     },
     {
         title: "Deafened",
-        icon: "elf-ear",
+        icon: "hearing-disabled",
         subtitle: "You can't hear",
         description: "You can't hear",
         reference: "PHB, pg. 290.",
@@ -103,7 +103,7 @@ data_condition = [
     },
     {
         title: "Petrified",
-        icon: "stone-pile",
+        icon: "rock-golem",
         subtitle: "You are transformed into stone",
         description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
         reference: "PHB, pg. 291.",
@@ -153,7 +153,7 @@ data_condition = [
     },
     {
         title: "Stunned",
-        icon: "internal-injury",
+        icon: "knockout",
         subtitle: "You are stunned",
         description: "You are stunned",
         reference: "PHB, pg. 292.",

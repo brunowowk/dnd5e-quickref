@@ -40,7 +40,7 @@ data_travel = [
     },
     {
         title: "Forced march",
-        icon: "journey",
+        icon: "run",
         subtitle: "DC: 10 + hours past 8",
         description: "Traveling more than 8 hours in a day",
         reference: "PHB, pg. 181",
