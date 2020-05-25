@@ -108,7 +108,7 @@ data_action = [
     {
         title: "Hide",
         icon: "hood",
-        subtitle: "",
+        subtitle: "Attempt to hide",
         description: "Attempt to hide",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -122,7 +122,7 @@ data_action = [
     {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "",
+        subtitle: "Try to find something",
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
         bullets: [
