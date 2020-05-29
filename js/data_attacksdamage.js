@@ -1,4 +1,4 @@
-data_damage_basic = [
+data_attacks = [
     {
     title: "Attack rolls",
     icon: "crossed-swords",
@@ -52,7 +52,49 @@ data_damage_basic = [
     }
 ]
 
-data_damage_types1 = [
+data_attacks_special = [
+    {
+    title: "Grapple",
+    icon: "grab",
+    subtitle: "Special melee attack",
+    description: "Attempt to grab a creature or wrestle with it",
+    reference: "PHB, pg. 195.",
+    bullets: [
+        "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+        "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
+        "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
+        "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+        ]
+    },
+    {
+    title: "Shove",
+    icon: "hand",
+    subtitle: "Special melee attack",
+    description: "Shove a creature, either to knock it prone or push it away from you",
+    reference: "PHB, pg. 195.",
+    bullets: [
+        "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+        "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
+        "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
+        "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+        ]
+    },
+    {
+    title: "Improvised Weapons",
+    icon: "broken-bottle",
+    subtitle: "Attack with something unusual",
+    description: "Make an attack with an Improvised Weapon",
+    reference: "PHB, pg. 147.",
+    bullets: [
+        "An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin.",
+        "Often, an improvised weapon is similar to an actual weapon and can be treated as such. For example, a table leg is akin to a club. At the DM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.",
+        "An object that bears no resemblance to a weapon deals 1d4 damage (the DM assigns a damage type appropriate to the object).",
+        "If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet."
+        ]
+    }
+]
+
+data_damage_typescommon = [
     {
         title: "Bludgeoning",
         icon: "mace-head",

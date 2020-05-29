@@ -15,8 +15,8 @@ data_spellcasting_general = [
      {
          title: "Cantrips",
          icon: "bolt-spell-cast",
-         subtitle: "Spells that can be cast at no cost",
-         description: "Spells that can be cast at no cost",
+         subtitle: "Spells that can be cast without slots",
+         description: "Spells that can be cast without slots",
          reference: "PHB, pg. 201",
          bullets: [
              "A cantrip is a spell that can be cast at will, without using a spell slot and without being prepared in advance. Repeated practice has fixed the spell in the caster's mind and infused the caster with the magic needed to produce the effect over and over. A cantrip's spell level is 0."
@@ -25,8 +25,8 @@ data_spellcasting_general = [
      {
          title: "Rituals",
          icon: "rune-stone",
-         subtitle: "A spell that can take longer to cast",
-         description: "A spell that can take longer to cast",
+         subtitle: "+10 minutes to save a spell slot",
+         description: "Ritual casting a spell takes longer but saves a spell slot",
          reference: "PHB, pgs. 201-202",
          bullets: [
              "Certain spells have a special tag: ritual. Such a spell can be cast following the normal rules for spellcasting, or the spell can be cast as a ritual. The ritual version of a spell takes 10 minutes longer to cast than normal.",
@@ -82,7 +82,7 @@ data_spellcasting_general = [
          bullets: [
              "Because of the mental focus and precise gestures required for spellcasting, you must be proficient with the armor (including shield) you are wearing to cast a spell. You are otherwise too distracted and physically hampered by your armor for spellcasting."
          ]
-     }
+    }
 ]
 
 data_spellcasting_spellinfo = [

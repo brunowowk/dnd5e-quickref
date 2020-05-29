@@ -1,4 +1,4 @@
-data_damage_death = [
+data_death = [
      {
         title: "Instant death",
         icon: "decapitation",
@@ -47,7 +47,7 @@ data_damage_death = [
     },
 ]
 
-data_damage_health = [
+data_recovery_health = [
     {
         title: "Healing",
         icon: "healing",
@@ -77,7 +77,7 @@ data_damage_health = [
     }
 ]
 
-data_damage_resting = [
+data_recovery_resting = [
      {
         title: "Short rest",
         icon: "campfire",

@@ -15,7 +15,7 @@ data_movement = [
     },
     {
         title: "Drop prone",
-        icon: "falling",
+        icon: "despair",
         subtitle: "Cost: 0ft",
         description: "Movement cost: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
@@ -115,6 +115,17 @@ data_movement = [
         bullets: [
             "May involve a Strength (Athletics) check if the swim is difficult",
             "You ignore this extra cost if you have a swimming speed and use it to swim."
+        ]
+    },
+    {
+        title: "Squeezing into a Smaller Space",
+        icon: "dungeon-gate",
+        subtitle: "Cost modifier: +5ft per 5ft",
+        description: "Squeezing costs an additional 5ft per 5ft of movement",
+        reference: "PHB, pg. 182.",
+        bullets: [
+            "A creature can squeeze through a space that is large enough for a creature one size smaller than it. Thus, a Large creature can squeeze through a passage that's only 5 feet wide.",
+            "While squeezing through a space, a creature has disadvantage on attack rolls and Dexterity saving throws. Attack rolls against the creature have advantage while it's in the smaller space."
         ]
     },
     {

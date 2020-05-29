@@ -61,6 +61,18 @@
     font-size: 16pt;
 }
 
+.section-title-reverse-firebrick {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: firebrick;
+    font-size: 16pt;
+}
+
 .section-title-reverse-class {
     height: 32px;
     padding-left: 0px;
@@ -290,11 +302,11 @@ table#t01 th {
 }
 
 #section-condition, #section-condition .item-icon {
-    background-color: FireBrick;
-    border-color: FireBrick;
+    background-color: orangered;
+    border-color: orangered;
 }
 #section-condition .text {
-    color: FireBrick;
+    color: orangered;
 }
 
 #section-visibility, #section-visibility .item-icon {
@@ -321,28 +333,28 @@ table#t01 th {
     color: #2271AE;
 }
 
-#section-damage, #section-damage .item-icon {
+#section-attacksdamage, #section-attacksdamage .item-icon {
     background-color: IndianRed;
     border-color: IndianRed;
 }
-#section-damage .text {
+#section-attacksdamage .text {
     color: IndianRed;
 }
 
-#section-damage-healing, #section-damage-healing .item-icon {
+#section-deathrecovery, #section-deathrecovery .item-icon {
     background-color: SeaGreen;
     border-color: SeaGreen;
 }
-#section-damage-healing .text {
+#section-deathrecovery .text {
     color: SeaGreen;
 }
 
 #section-abilities, #section-abilities .item-icon {
-    background-color: Maroon;
-    border-color: Maroon;
+    background-color: firebrick;
+    border-color: firebrick;
 }
 #section-abilities .text {
-    color: Maroon;
+    color: firebrick;
 }
 
 #section-languages, #section-languages .item-icon {

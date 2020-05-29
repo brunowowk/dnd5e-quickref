@@ -68,12 +68,13 @@ function init() {
     fill_section(data_visibility_vision, "visibility-vision", "Visibility & Cover");
     fill_section(data_visibility_cover, "visibility-cover", "Visibility & Cover");
     fill_section(data_xp, "xp", "Experience");
-    fill_section(data_damage_basic, "damage-basic", "Attacks & Damage");
-    fill_section(data_damage_types1, "damage-types1", "Attacks & Damage");
+    fill_section(data_attacks, "attacks", "Attacks & Damage");
+    fill_section(data_attacks_special, "attacks_special", "Attacks & Damage");
+    fill_section(data_damage_typescommon, "damage-typescommon", "Attacks & Damage");
     fill_section(data_damage_types, "damage-types", "Attacks & Damage");
-    fill_section(data_damage_death, "damage-death", "Death & Recovery");
-    fill_section(data_damage_health, "damage-health", "Death & Recovery");
-    fill_section(data_damage_resting, "damage-resting", "Death & Recovery");
+    fill_section(data_death, "death", "Death & Recovery");
+    fill_section(data_recovery_health, "recovery-health", "Death & Recovery");
+    fill_section(data_recovery_resting, "recovery-resting", "Death & Recovery");
     fill_section(data_abilities_str, "abilities-str", "Ability Scores & Skills");
     fill_section(data_abilities_dex, "abilities-dex", "Ability Scores & Skills");
     fill_section(data_abilities_con, "abilities-con", "Ability Scores & Skills");
