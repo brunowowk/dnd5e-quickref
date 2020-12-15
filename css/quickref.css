@@ -61,7 +61,7 @@
     font-size: 16pt;
 }
 
-.section-title-reverse-crimson {
+.section-title-reverse-firebrick {
     height: 32px;
     padding-left: 0px;
     padding-right: 8px;
@@ -69,7 +69,19 @@
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
-    color: Crimson;
+    color: firebrick;
+    font-size: 16pt;
+}
+
+.section-title-reverse-class {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: #2e4606;
     font-size: 16pt;
 }
 
@@ -82,6 +94,30 @@
     font-weight: bold;
     background-color: inherit;
     color: Purple;
+    font-size: 16pt;
+}
+
+.section-title-reverse-indianred {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: IndianRed;
+    font-size: 16pt;
+}
+
+.section-title-reverse-seagreen {
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 8px;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: inherit;
+    color: SeaGreen;
     font-size: 16pt;
 }
 
@@ -105,7 +141,7 @@
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
-    color: #2e4f1e;
+    color: darkorange;
     font-size: 16pt;
 }
 
@@ -266,27 +302,27 @@ table#t01 th {
 }
 
 #section-condition, #section-condition .item-icon {
-    background-color: FireBrick;
-    border-color: FireBrick;
+    background-color: orangered;
+    border-color: orangered;
 }
 #section-condition .text {
-    color: FireBrick;
+    color: orangered;
 }
 
-#section-environment, #section-environment .item-icon {
-    background-color: ForestGreen;
-    border-color: ForestGreen;
+#section-visibility, #section-visibility .item-icon {
+    background-color: #2271AE;
+    border-color: #2271AE;
 }
-#section-environment .text {
-    color: ForestGreen;
+#section-visibility .text {
+    color: #2271AE;
 }
 
 #section-travel, #section-travel .item-icon {
-    background-color: SaddleBrown;
-    border-color: SaddleBrown;
+    background-color: ForestGreen;
+    border-color: ForestGreen;
 }
 #section-travel .text {
-    color: SaddleBrown;
+    color: ForestGreen;
 }
 
 #section-xp, #section-xp .item-icon {
@@ -297,28 +333,28 @@ table#t01 th {
     color: #2271AE;
 }
 
-#section-damage-types, #section-damage-types .item-icon {
+#section-attacksdamage, #section-attacksdamage .item-icon {
     background-color: IndianRed;
     border-color: IndianRed;
 }
-#section-damage-types .text {
+#section-attacksdamage .text {
     color: IndianRed;
 }
 
-#section-damage-healing, #section-damage-healing .item-icon {
+#section-deathrecovery, #section-deathrecovery .item-icon {
     background-color: SeaGreen;
     border-color: SeaGreen;
 }
-#section-damage-healing .text {
+#section-deathrecovery .text {
     color: SeaGreen;
 }
 
 #section-abilities, #section-abilities .item-icon {
-    background-color: Crimson;
-    border-color: Crimson;
+    background-color: firebrick;
+    border-color: firebrick;
 }
 #section-abilities .text {
-    color: Crimson;
+    color: firebrick;
 }
 
 #section-languages, #section-languages .item-icon {
@@ -337,12 +373,12 @@ table#t01 th {
     color: Sienna;
 }
 
-#section-classabilities, #section-classabilities .item-icon {
-    background-color: Maroon;
-    border-color: Maroon;
+#section-classfeatures, #section-classfeatures .item-icon {
+    background-color: #2e4606;
+    border-color: #2e4606;
 }
-#section-classabilities .text {
-    color: Maroon;
+#section-classfeatures .text {
+    color: #2e4606;
 }
 
 #section-spellcasting, #section-spellcasting .item-icon {
@@ -354,11 +390,11 @@ table#t01 th {
 }
 
 #section-multiclassing, #section-multiclassing .item-icon {
-    background-color: #2e4f1e;
-    border-color: #2e4f1e;
+    background-color: darkorange;
+    border-color: darkorange;
 }
 #section-multiclassing .text {
-    color: #2e4f1e;
+    color: darkorange;
 }
 
 

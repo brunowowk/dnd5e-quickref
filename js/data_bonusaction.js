@@ -1,9 +1,9 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Two-weapon fighting",
         icon: "crossed-swords",
         subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        description: "Attack with a second weapon in your other hand",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
@@ -19,7 +19,7 @@ data_bonusaction = [
         description: "Cast a spell with a casting time of 1 bonus action",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
+            "You can't cast a spell with 1 action and a spell with 1 bonus action in the same turn, unless the 1 action spell is a cantrip.",
             "For further details, see the <i>Cast a spell</i> action."
         ]
     },

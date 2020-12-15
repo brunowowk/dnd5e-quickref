@@ -7,36 +7,10 @@ data_action = [
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
+            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Two-weapon fighting</i> bonus action).",
             "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
             "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
             "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
-        ]
-    },
-    {
-        title: "Grapple",
-        icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
-        reference: "PHB, pg. 195.",
-        bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
-        ]
-    },
-    {
-        title: "Shove",
-        icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195.",
-        bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
         ]
     },
     {
@@ -46,7 +20,7 @@ data_action = [
         description: "Cast a spell with a casting time of 1 action",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
+            "You can't cast a spell with 1 action and a spell with 1 bonus action in the same turn, unless the 1 action spell is a cantrip.",
             "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
             "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
             "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
@@ -55,7 +29,7 @@ data_action = [
     {
         title: "Dash",
         icon: "sprint",
-        subtitle: "Double movement speed",
+        subtitle: "Gain extra movement",
         description: "Gain extra movement for the current turn",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -106,31 +80,9 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
-        icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
-        ]
-    },
-    {
-        title: "Use shield",
-        icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
-        bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
-        ]
-    },
-    {
         title: "Hide",
         icon: "hood",
-        subtitle: "",
+        subtitle: "Attempt to hide",
         description: "Attempt to hide",
         reference: "PHB, pg. 192.",
         bullets: [
@@ -144,11 +96,14 @@ data_action = [
     {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "",
+        subtitle: "Try to find something",
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check.",
+            "When your character searches for a hidden object such as a secret door or a trap, the DM typically asks you to make a Wisdom (Perception) check. Such a check can be used to find hidden details or other information and clues that you might otherwise overlook. In most cases, you need to describe where you are looking in order for the DM to determine your chance of success.",
+            "When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse.",
+            "If you're trying to perceive something, you are calling for a Perception check. If you want to find an object through deduction, you are calling for a Investigation."
         ]
     },
     {
@@ -164,16 +119,26 @@ data_action = [
        ]
     },
     {
-        title: "Ready",
-        icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        title: "Use an object",
+        icon: "snatch",
+        subtitle: "Interact, use special abilities",
+        description: "Interact with a second object or use special object abilities",
         reference: "PHB, pg. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "You can normally interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
+            "When an object requires your action for its use, you also take this action.",
+            "If a magic item requires an action to activate, including potions, that action isn't a function of the Use an Object action."
+        ]
+    },
+    {
+        title: "Use shield",
+        icon: "round-shield",
+        subtitle: "Equip or unequip a shield",
+        description: "Equip or unequip a shield",
+        reference: "PHB, pgs. 144-146.",
+        bullets: [
+            "A shield takes an action to equip or unequip.",
+            "Armor takes several minutes to equip or unequip."
         ]
     },
     {
@@ -184,6 +149,19 @@ data_action = [
         reference: "See class page for more information.",
         bullets: [
 
+        ]
+    },
+    {
+        title: "Ready",
+        icon: "stopwatch",
+        subtitle: "Prepare a triggered action",
+        description: "Choose a trigger and a response reaction",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "First, you decide what perceivable circumstance will trigger your reaction.",
+            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
+            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
+            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration."
         ]
     },
     {

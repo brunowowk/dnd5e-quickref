@@ -15,7 +15,7 @@ data_abilities_str = [
         ]
     },
     {
-        title: "Carrying Capacity",
+        title: "Carrying capacity",
         icon: "knapsack",
         subtitle: "Strength multiplied by 15",
         description: "How much you can carry at a given time",
@@ -25,7 +25,7 @@ data_abilities_str = [
         ]
     },
     {
-        title: "Push, Drag, and Lift",
+        title: "Push, Drag, & Lift",
         icon: "pull",
         subtitle: "Strength multiplied by 30",
         description: "How much weight you can push, drag, and lift",
@@ -35,7 +35,7 @@ data_abilities_str = [
         ]
     },
     {
-       title: "Size/Strength",
+       title: "Size & Strength",
        icon: "lift",
        subtitle: "Size can affect a creature's strength",
        description: "Size can affect a creature's strength",
@@ -47,7 +47,7 @@ data_abilities_str = [
        ]
     },
     {
-       title: "Attack Rolls & Damage",
+       title: "Attack rolls & Damage",
        icon: "stone-axe",
        subtitle: "How likely you are to hit your target",
        description: "How likely you are to hit your target",
@@ -57,7 +57,7 @@ data_abilities_str = [
        ]
     },
     {
-       title: "Other Strength Checks",
+       title: "Other strength checks",
        icon: "perspective-dice-six-faces-random",
        subtitle: "Other uses for Strength",
        description: "Other uses for Strength",
@@ -79,7 +79,7 @@ data_abilities_str = [
 data_abilities_dex = [
      {
         title: "Acrobatics",
-        icon: "falling",
+        icon: "acrobatic",
         subtitle: "Used for nimble physical feats",
         description: "Used for nimble physical feats",
         reference: "PHB, pg. 176",
@@ -88,7 +88,7 @@ data_abilities_dex = [
         ]
     },
     {
-       title: "Sleight of Hand",
+       title: "Sleight of hand",
        icon: "snatch",
        subtitle: "Used for the art of theft and trickery",
        description: "Used for the art of theft and trickery",
@@ -101,15 +101,15 @@ data_abilities_dex = [
        title: "Stealth",
        icon: "hood",
        subtitle: "Used to remain unseen",
-       description: "Usde to remain unseen",
+       description: "Used to remain unseen",
        reference: "PHB, pg. 177",
        bullets: [
             "Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
        ]
     },
     {
-       title: "Armor Class",
-       icon: "spiked-armor",
+       title: "Armor class",
+       icon: "dodging",
        subtitle: "How likely/unlikely you are to be hit",
        description: "How likely/unlikely you are to be hit",
        reference: "PHB, pg. 177",
@@ -128,8 +128,8 @@ data_abilities_dex = [
        ]
     },
     {
-       title: "Attack Rolls & Damage",
-       icon: "plain-dagger",
+       title: "Attack rolls & Damage",
+       icon: "bowman",
        subtitle: "How likely you are to hit your target",
        description: "How likely you are to hit your target",
        reference: "PHB, pg. 177",
@@ -138,7 +138,7 @@ data_abilities_dex = [
        ]
     },
     {
-       title: "Other Dexterity Checks",
+       title: "Other dexterity checks",
        icon: "perspective-dice-six-faces-random",
        subtitle: "Other uses for Dexterity",
        description: "Other uses for Dexterity",
@@ -161,7 +161,7 @@ data_abilities_dex = [
 
 data_abilities_con = [
      {
-       title: "Hit Points",
+       title: "Hit points",
        icon: "heart-bottle",
        subtitle: "How much health you have",
        description: "How much health you have",
@@ -172,7 +172,7 @@ data_abilities_con = [
        ]
      },
      {
-       title: "Holding Breath",
+       title: "Holding breath",
        icon: "drowning",
        subtitle: "1 + Constitution modifier in minutes",
        description: "How long you can hold your breath",
@@ -183,7 +183,7 @@ data_abilities_con = [
        ]
      },
      {
-       title: "Constitution Checks",
+       title: "Constitution checks",
        icon: "perspective-dice-six-faces-random",
        subtitle: "Uses for Constitution",
        description: "Uses for Constitution",
@@ -252,7 +252,7 @@ data_abilities_int = [
       ]
     },
     {
-      title: "Spellcasting Ability",
+      title: "Spellcasting ability",
       icon: "magic-swirl",
       subtitle: "Wizards",
       description: "Wizards",
@@ -262,7 +262,7 @@ data_abilities_int = [
       ]
     },
     {
-      title: "Other Intelligence Checks",
+      title: "Other intelligence checks",
       icon: "perspective-dice-six-faces-random",
       subtitle: "Other uses for Intelligence",
       description: "Other uses for Intelligence",
@@ -283,7 +283,7 @@ data_abilities_int = [
 
 data_abilities_wis = [
      {
-       title: "Animal Handling",
+       title: "Animal handling",
        icon: "hoof",
        subtitle: "Used to control animals",
        description: "Used to control animals",
@@ -333,7 +333,7 @@ data_abilities_wis = [
        ]
      },
      {
-       title: "Spellcasting Ability",
+       title: "Spellcasting ability",
        icon: "magic-swirl",
        subtitle: "Clerics, druids, and rangers",
        description: "Clerics, druids, and rangers",
@@ -343,7 +343,7 @@ data_abilities_wis = [
        ]
     },
      {
-       title: "Other Wisdom Checks",
+       title: "Other wisdom checks",
        icon: "perspective-dice-six-faces-random",
        subtitle: "Other uses for Wisdom",
        description: "Other uses for Wisdom",
@@ -361,7 +361,7 @@ data_abilities_wis = [
 data_abilities_cha = [
      {
        title: "Deception",
-       icon: "conversation",
+       icon: "liar",
        subtitle: "Used to lie and trick others",
        description: "Used to lie and trick others",
        reference: "PHB, pg. 178",
@@ -371,7 +371,7 @@ data_abilities_cha = [
      },
      {
        title: "Intimidation",
-       icon: "scarecrow",
+       icon: "angry-eyes",
        subtitle: "Used to frighten others",
        description: "Used to frighten others",
        reference: "PHB, pg. 179",
@@ -391,7 +391,7 @@ data_abilities_cha = [
      },
      {
        title: "Persuasion",
-       icon: "trade",
+       icon: "convince",
        subtitle: "Used to convince others",
        description: "Used to convince others",
        reference: "PHB, pg. 179",
@@ -400,7 +400,7 @@ data_abilities_cha = [
        ]
      },
      {
-       title: "Spellcasting Ability",
+       title: "Spellcasting ability",
        icon: "magic-swirl",
        subtitle: "Bards, paladins, sorcerers, and warlocks",
        description: "Bards, paladins, sorcerers, and warlocks",
@@ -410,7 +410,7 @@ data_abilities_cha = [
        ]
      },
      {
-       title: "Other Charisma Checks",
+       title: "Other charisma checks",
        icon: "perspective-dice-six-faces-random",
        subtitle: "Other uses for Charisma",
        description: "Other uses for Charisma",

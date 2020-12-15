@@ -43,7 +43,7 @@
         <!-- Free Action section -->
         <div id="section-free-action" class="section-container">
              <div class="section-title">
-                 Free Action (At DM discretion)
+                 Free Action <span class="float-right"> DM's discretion</span>
              </div>
              <div class="section-content">
                   <div class="section-row section-subtitle text fontsize">
@@ -94,64 +94,65 @@
             </div>
         </div>
 
-        <!-- Environmental section -->
-        <div id="section-environment" class="section-container">
+        <!-- Visibility section -->
+        <div id="section-visibility" class="section-container">
             <div class="section-title">
-                Environmental Effects
+                Visibility & Cover
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
                     Effects that obscure vision can prove a significant hindrance to most adventuring tasks.
                 </div>
-                <div class="section-row" id="environment-obscurance"></div>
+                <div class="section-row" id="visibility-obscurance"></div>
                 <div class="section-row section-subtitle text fontsize">
                     The presence or absence of light in an environment creates three categories of illumination.
                 </div>
-                <div class="section-row" id="environment-light"></div>
+                <div class="section-row" id="visibility-light"></div>
                 <div class="section-row section-subtitle text fontsize">
                     Some creatures have extraordinary senses that allow them to perceive their environment.
                 </div>
-                <div class="section-row" id="environment-vision"></div>
+                <div class="section-row" id="visibility-vision"></div>
                 <div class="section-row section-subtitle text fontsize">
                     Obstacles can provide cover during combat, making a target more difficult to harm.
                 </div>
-                <div class="section-row" id="environment-cover"></div>
+                <div class="section-row" id="visibility-cover"></div>
             </div>
         </div>
 
-        <!-- Travel Section -->
-        <div id="section-travel" class="section-container">
+        <!-- Attacks & Damage Section -->
+        <div id="section-attacksdamage" class="section-container">
              <div class="section-title">
-                 Traveling
+                 Attacks & Damage
              </div>
-
              <div class="section-content">
-                  <div class="section-row section-subtitle text fontsize">
-                      Movement over long distance and duration
-                  </div>
-                 <div class="section-row" id="travel"></div>
+                 <div class="section-row" id="attacks"></div>
+                 <div class="section-row" id="attacks_special"></div>
+                 <div class="section-row section-subtitle text fontsize">
+                    Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.
+                </div>
+                <div class="section-row" id="damage-typescommon"></div>
+                <div class="section-row" id="damage-types"></div>
             </div>
         </div>
 
-        <!-- Damage Types Section -->
-        <div id="section-damage-types" class="section-container">
+        <!-- Death & Recovery Section -->
+        <div id="section-deathrecovery" class="section-container">
              <div class="section-title">
-                 Damage Types
+                 Death & Recovery
              </div>
              <div class="section-content">
-                 <div class="section-row" id="damage-types"></div>
-            </div>
-        </div>
-
-        <!-- Health, Dying, and Resting Section -->
-        <div id="section-damage-healing" class="section-container">
-             <div class="section-title">
-                 Health, Dying, and Resting
-             </div>
-             <div class="section-content">
-                 <div class="section-row" id="damage-health"></div>
-                 <div class="section-row" id="damage-death"></div>
-                 <div class="section-row" id="damage-resting"></div>
+                 <div class="section-title-reverse-seagreen">
+                    Dropping to 0 Hit Points
+                </div>
+                 <div class="section-row section-subtitle text fontsize">
+                    When you drop to 0 hit points, you either die outright or fall unconscious.
+                </div>
+                 <div class="section-row" id="death"></div>
+                 <div class="section-title-reverse-seagreen">
+                    Healing & Resting
+                </div>
+                 <div class="section-row" id="recovery-health"></div>
+                 <div class="section-row" id="recovery-resting"></div>
             </div>
         </div>
 
@@ -161,42 +162,42 @@
                 Ability Scores & Skills
             </div>
             <div class="section-content">
-                <div class="section-title-reverse-crimson">
+                <div class="section-title-reverse-firebrick">
                     Strength
                 </div>
                 <div class="section-row section-subtitle text fontsize">
                     Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.
                 </div>
                 <div class="section-row" id="abilities-str"></div>
-                <div class="section-title-reverse-crimson">
+                <div class="section-title-reverse-firebrick">
                     Dexterity
                 </div>
                 <div class="section-row section-subtitle text fontsize">
                     Dexterity measures agility, reflexes, and balance.
                 </div>
                 <div class="section-row" id="abilities-dex"></div>
-                <div class="section-title-reverse-crimson">
+                <div class="section-title-reverse-firebrick">
                     Constitution
                 </div>
                 <div class="section-row section-subtitle text fontsize">
                     Constitution measures health, stamina, and vital force.
                 </div>
                 <div class="section-row" id="abilities-con"></div>
-                <div class="section-title-reverse-crimson">
+                <div class="section-title-reverse-firebrick">
                     Intelligence
                 </div>
                 <div class="section-row section-subtitle text fontsize">
                     Intelligence measures mental acuity, accuracy of recall, and the ability to reason.
                 </div>
                 <div class="section-row" id="abilities-int"></div>
-                <div class="section-title-reverse-crimson">
+                <div class="section-title-reverse-firebrick">
                     Wisdom
                 </div>
                 <div class="section-row section-subtitle text fontsize">
                     Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.
                 </div>
                 <div class="section-row" id="abilities-wis"></div>
-                <div class="section-title-reverse-crimson">
+                <div class="section-title-reverse-firebrick">
                     Charisma
                 </div>
                 <div class="section-row section-subtitle text fontsize">
@@ -212,72 +213,19 @@
                  Languages
              </div>
              <div class="section-content">
-                  <div class="section-title-reverse-purple">
+                 <div class="section-title-reverse-purple">
                      Standard Languages
                  </div>
                  <div class="section-row" id="languages-standard"></div>
                  <div class="section-title-reverse-purple">
                     Exotic Languages
-               </div>
-               <div class="section-row" id="languages-exotic"></div>
-            </div>
-        </div>
-
-        <!-- Class Abilities section -->
-        <div id="section-classabilities" class="section-container">
-             <div class="section-title">
-                 Class Abilities
+                 </div>
+                 <div class="section-row" id="languages-exotic"></div>
+                 <div class="section-title-reverse-purple">
+                    Secret Languages
+                 </div>
+                 <div class="section-row" id="languages-rare"></div>
              </div>
-             <div class="section-content">
-                  <div class="section-title-reverse-maroon">
-                    Barbarian
-                  </div>
-                  <div class="section-row" id="class-abilities-barbarian"></div>
-                  <div class="section-title-reverse-maroon">
-                    Bard
-                  </div>
-                  <div class="section-row" id="class-abilities-bard"></div>
-                  <div class="section-title-reverse-maroon">
-                    Cleric
-                  </div>
-                  <div class="section-row" id="class-abilities-cleric"></div>
-                  <div class="section-title-reverse-maroon">
-                    Druid
-                  </div>
-                  <div class="section-row" id="class-abilities-druid"></div>
-                  <div class="section-title-reverse-maroon">
-                    Fighter
-                  </div>
-                  <div class="section-row" id="class-abilities-fighter"></div>
-                  <div class="section-title-reverse-maroon">
-                    Monk
-                  </div>
-                  <div class="section-row" id="class-abilities-monk"></div>
-                  <div class="section-title-reverse-maroon">
-                    Paladin
-                  </div>
-                  <div class="section-row" id="class-abilities-paladin"></div>
-                  <div class="section-title-reverse-maroon">
-                    Ranger
-                  </div>
-                  <div class="section-row" id="class-abilities-ranger"></div>
-                  <div class="section-title-reverse-maroon">
-                    Rogue
-                  </div>
-                  <div class="section-row" id="class-abilities-rogue"></div>
-                  <div class="section-title-reverse-maroon">
-                    Sorcerer
-                  </div>
-                  <div class="section-row" id="class-abilities-sorcerer"></div>
-                  <div class="section-title-reverse-maroon">
-                    Warlock
-                  </div>
-                  <div class="section-row" id="class-abilities-warlock"></div>
-                  <!-- <div class="section-title-reverse-maroon">
-                    Wizard
-                  </div>
-                  <div class="section-row" id="class-abilities-wizard"></div> -->
-            </div>
         </div>
 
         <!--Spellcasting section-->
@@ -286,36 +234,69 @@
                   Spellcasting
              </div>
              <div class="section-content">
+                  <div class="section-row" id="spellcasting-general"></div>
                   <div class="section-title-reverse-spellcasting">
                        Spell Information
                   </div>
                   <div class="section-row" id="spellcasting-spellinfo"></div>
-                  <div class="section-title-reverse-spellcasting">
-                       Casting a Spell
-                  </div>
-                  <div class="section-row" id="spellcasting-casting"></div>
              </div>
         </div>
 
-        <!--Multiclassing section-->
-        <div id="section-multiclassing" class="section-container">
+        <!-- Class Features section -->
+        <div id="section-classfeatures" class="section-container">
              <div class="section-title">
-                  Multiclassing
+                 Class Features
              </div>
              <div class="section-content">
-                  <div class="section-title-reverse-multiclassing">
-                       Prerequisites, Proficiencies, and More
+                  <div class="section-title-reverse-class">
+                    Barbarian
                   </div>
-                  <div class="section-row" id="multiclassing-classreqs"></div>
-                  <div class="section-title-reverse-multiclassing">
-                       Class Features & Multiclassing
+                  <div class="section-row" id="class-features-barbarian"></div>
+                  <div class="section-title-reverse-class">
+                    Bard
                   </div>
-                  <div class="section-row" id="multiclassing-classfeats-reg"></div>
-                  <div class="section-row section-subtitle text fontsize">
-                       Spellcasting also acts different with multiple classes...
+                  <div class="section-row" id="class-features-bard"></div>
+                  <div class="section-title-reverse-class">
+                    Cleric
                   </div>
-                  <div class="section-row" id="multiclassing-classfeats-casting"></div>
-             </div>
+                  <div class="section-row" id="class-features-cleric"></div>
+                  <div class="section-title-reverse-class">
+                    Druid
+                  </div>
+                  <div class="section-row" id="class-features-druid"></div>
+                  <div class="section-title-reverse-class">
+                    Fighter
+                  </div>
+                  <div class="section-row" id="class-features-fighter"></div>
+                  <div class="section-title-reverse-class">
+                    Monk
+                  </div>
+                  <div class="section-row" id="class-features-monk"></div>
+                  <div class="section-title-reverse-class">
+                    Paladin
+                  </div>
+                  <div class="section-row" id="class-features-paladin"></div>
+                  <div class="section-title-reverse-class">
+                    Ranger
+                  </div>
+                  <div class="section-row" id="class-features-ranger"></div>
+                  <div class="section-title-reverse-class">
+                    Rogue
+                  </div>
+                  <div class="section-row" id="class-features-rogue"></div>
+                  <div class="section-title-reverse-class">
+                    Sorcerer
+                  </div>
+                  <div class="section-row" id="class-features-sorcerer"></div>
+                  <div class="section-title-reverse-class">
+                    Warlock
+                  </div>
+                  <div class="section-row" id="class-features-warlock"></div>
+                  <!-- <div class="section-title-reverse-class">
+                    Wizard
+                  </div>
+                  <div class="section-row" id="class-features-wizard"></div> -->
+            </div>
         </div>
 
         <!-- Equipment section -->
@@ -331,14 +312,7 @@
                <div class="section-title-reverse-sienna">
                    Tools
                </div>
-               <div class="section-row section-subtitle text fontsize">
-                   Normal tools
-               </div>
-              <div class="section-row" id="equipment-tools-norm"></div>
-               <div class="section-row section-subtitle text fontsize">
-                   Artisan's tools
-               </div>
-               <div class="section-row" id="equipment-tools-artisan"></div>
+               <div class="section-row" id="equipment-tools"></div>
                <div class="section-title-reverse-sienna">
                    Weapons
                </div>
@@ -349,7 +323,42 @@
              </div>
         </div>
 
-        <!-- XP section -->
+        <!-- Travel Section -->
+        <div id="section-travel" class="section-container">
+            <div class="section-title">
+                Traveling
+            </div>
+
+            <div class="section-content">
+                 <div class="section-row section-subtitle text fontsize">
+                     Movement over long distance and duration
+                 </div>
+                <div class="section-row" id="travel"></div>
+           </div>
+       </div>
+
+        <!--Multiclassing section-->
+        <div id="section-multiclassing" class="section-container">
+            <div class="section-title">
+                 Multiclassing
+            </div>
+            <div class="section-content">
+                 <div class="section-title-reverse-multiclassing">
+                      Prerequisites, Proficiencies, and More
+                 </div>
+                 <div class="section-row" id="multiclassing-classreqs"></div>
+                 <div class="section-title-reverse-multiclassing">
+                      Class Features & Multiclassing
+                 </div>
+                 <div class="section-row" id="multiclassing-classfeats-reg"></div>
+                 <div class="section-row section-subtitle text fontsize">
+                      Spellcasting also acts different with multiple classes...
+                 </div>
+                 <div class="section-row" id="multiclassing-classfeats-casting"></div>
+            </div>
+       </div>
+
+      <!-- XP section -->
         <div id="section-xp" class="section-container">
              <div class="section-title">
                  Experience
@@ -359,7 +368,9 @@
             </div>
         </div>
 
-    <!-- Modal -->
+        <p><a href="quickref_brief.html">Jump to the Brief Version of the D&D 5e Quick Reference</a></p>
+
+        <!-- Modal -->
     <div class="modal" id="modal" tabindex="-1">
         <div class="modal-backdrop" id="modal-backdrop"></div>
         <div class="modal-dialog modalsize">
@@ -389,16 +400,17 @@
     <script type="text/javascript" src="js/data_bonusaction.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_reaction.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_condition.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_xp.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_damage.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_visibility.js" charset="utf-8"></script>
+    <Script type="text/javascript" src="js/data_attacksdamage.js" charset="utf-8"></script>
+    <Script type="text/javascript" src="js/data_deathrecovery.js" charset="utf-8"></script>
     <Script type="text/javascript" src="js/data_abilities.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_travel.js" charset="utf-8"></script>
     <Script type="text/javascript" src="js/data_languages.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_equipment.js" charset="utf-8"></script>
-    <Script type="text/javascript" src="js/data_classabilities.js" charset="utf-8"></script>
     <Script type="text/javascript" src="js/data_spellcasting.js" charset="utf-8"></script>
+    <Script type="text/javascript" src="js/data_classfeatures.js" charset="utf-8"></script>
+    <Script type="text/javascript" src="js/data_equipment.js" charset="utf-8"></script>
+    <Script type="text/javascript" src="js/data_travel.js" charset="utf-8"></script>
     <Script type="text/javascript" src="js/data_multiclassing.js" charset="utf-8"></script>
+    <Script type="text/javascript" src="js/data_xp.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
 </body>
 </html>

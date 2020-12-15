@@ -1,22 +1,19 @@
-dnd5e-quickref
-==============
+Quick reference sheet for D&D 5e
+Find my version of the actual Sheet in action @
 
-Quick reference sheet for D&amp;D 5e
+https://orbitalbliss.github.io/dnd5e-quickref/quickref.html
 
-This is a fork of the project updated by niblexis. You can find the original by Crobi here: https://github.com/crobi/dnd5e-quickref
+Or the Brief version of the sheet (good for new players) in action @
 
+https://orbitalbliss.github.io/dnd5e-quickref/quickref_brief.html
+
+You can find the original project by Crobi here: https://github.com/crobi/dnd5e-quickref
+
+Which was forked by niblexis here: https://github.com/niblexis/dnd5e-quickref
+
+Which was forked by brunowowk here: https://github.com/brunowowk/dnd5e-quickref
+
+If you want to contribute to my version... come here: https://github.com/OrbitalBliss/dnd5e-quickref
 
 Icons
-==============
-
-All icons are provided by http://game-icons.net/
-
-
-FAQ
-===
-
-#### Q: I have found a layout issue or a major issue in one of the core items, what should I do? ####
-A: Open an issue at https://github.com/niblexis/dnd5e-quickref/issues. Even better: fork the project, fix the problem, and post a pull request.
-
-#### Q: I have an idea for a minor tweak, such as adding actions specific for my character. How do I modify the content of the sheet? ####
-A: Open the subfolder called `js`, and edit one of the `data` files. Ask your local computer geek for help if you don't know how to edit those.
+All icons are provided by http://game-icons.net/

@@ -24,7 +24,7 @@ data_condition = [
     },
     {
         title: "Deafened",
-        icon: "elf-ear",
+        icon: "hearing-disabled",
         subtitle: "You can't hear",
         description: "You can't hear",
         reference: "PHB, pg. 290.",
@@ -39,9 +39,9 @@ data_condition = [
         description: "Exhaustion is measured in six levels",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
+            "<table><tr><th>Level</th><th style='text-align:left'>Effect\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0</th></tr><tr><td>1</td><td style='text-align:left'>Disadvantage on ability checks</td></tr><tr><td>2</td><td style='text-align:left'>Speed halved</td></tr><tr><td>3</td><td style='text-align:left'>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td style='text-align:left'>Hit point maximum halved</td></tr><tr><td>5</td><td style='text-align:left'>Speed reduced to 0</td></tr><tr><td>6</td><td style='text-align:left'>Death</td></tr></table>",
             "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink."
+            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink, and are not sleeping in medium or heavy armor."
         ]
     },
     {
@@ -95,7 +95,7 @@ data_condition = [
         subtitle: "You are paralyzed",
         description: "You can't do anything",
         bullets: [
-            "You are incapacitated and can't move or speak.",
+            "You are incapacitated (no actions/reactions) and can't move or speak.",
             "Attack rolls against you have advantage.",
             "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
             "You automatically fail Strength and Dexterity saving throws."
@@ -103,13 +103,13 @@ data_condition = [
     },
     {
         title: "Petrified",
-        icon: "stone-pile",
+        icon: "rock-golem",
         subtitle: "You are transformed into stone",
         description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
         reference: "PHB, pg. 291.",
         bullets: [
             "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
+            "You are incapacitated (no actions/reactions), can't move or speak, and are unaware of your surroundings.",
             "Attack rolls against you have advantage.",
             "You automatically fail Strength and Dexterity saving throws.",
             "You have resistance to all damage.",
@@ -153,12 +153,12 @@ data_condition = [
     },
     {
         title: "Stunned",
-        icon: "internal-injury",
+        icon: "knockout",
         subtitle: "You are stunned",
         description: "You are stunned",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
+            "You are incapacitated (no actions/reactions), can't move, and can speak only falteringly.",
             "Attack rolls against you have advantage.",
             "You automatically fail Strength and Dexterity saving throws."
         ]
@@ -170,7 +170,7 @@ data_condition = [
         description: "You are unconscious",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
+            "You are incapacitated (no actions/reactions), can't move or speak, and are unaware of your surroundings.",
             "You drop whatever you're holding and fall prone.",
             "Attack rolls against you have advantage.",
             "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
